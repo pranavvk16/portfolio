@@ -144,7 +144,7 @@ a:focus {
     flex-direction: column;
     align-items: flex-start;
     height: fit-content;
-    width: 100%;
+    width: 90%;
     margin: auto;
     padding-block: 0 20%;
     font-family: "Poppins", sans-serif;
@@ -212,8 +212,4 @@ a:focus {
     flex-direction: column-reverse;
     margin: auto;
   }  
-  .content{
-    width: 90%;
-    background-color: black;
-  }
 }
