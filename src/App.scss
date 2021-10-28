@@ -144,7 +144,7 @@ a:focus {
     flex-direction: column;
     align-items: flex-start;
     height: fit-content;
-    width: 60%;
+    width: 100%;
     margin: auto;
     padding-block: 0 20%;
     font-family: "Poppins", sans-serif;
@@ -203,13 +203,17 @@ a:focus {
   .content,
   .about {
     height: 100%;
-    width: 90%;
   }
+
   .about,
   .avatar {
     display: flex;
     width: 90%;
     flex-direction: column-reverse;
     margin: auto;
+  }  
+  .content{
+    width: 90%;
+    background-color: black;
   }
 }
