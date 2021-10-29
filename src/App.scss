@@ -271,12 +271,15 @@ a {
     display: none;
   }
   .home,
-  .content,
   .about {
     height: 100%;
+    width:100%;
   }
   .home{
     width: 90%;
+  }
+  .about .content{
+    width:100%;
   }
 
   .about,
@@ -287,7 +290,7 @@ a {
     margin: auto;
   }
   .contact {
-    width: 80%;
+    width: 90%;
     height:80vh;
     textarea,
     input {
