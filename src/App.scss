@@ -292,9 +292,13 @@ a {
   .contact {
     width: 90%;
     height:80vh;
-    textarea,
     input {
       width: 100%;
+    }
+    textarea{
+      width: 115.5%;
+      padding: 0;
+      margin: 0;
     }
   }
 }
