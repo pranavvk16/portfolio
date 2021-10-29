@@ -228,7 +228,9 @@ a {
     border-left: 6px solid #5c5d5e;
     padding-left: 10px;
   }
-
+.username{
+  margin-top: 10px;
+}
   textarea:focus,
   input:focus {
     border-left: 6px solid var(--neongreen);
@@ -279,7 +281,7 @@ a {
     width: 90%;
   }
   .about .content{
-    width:90%;
+    width:80%;
   }
 
   .about,
@@ -290,13 +292,13 @@ a {
     margin: auto;
   }
   .contact {
-    width: 80%;
+    width: 70%;
     height:80vh;
     input {
-      width: 100%;
+      width: 110%;
     }
     textarea{
-      width: 107%;
+      width: 154%;
       padding: 0;
       margin: 0;
     }
