@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from '../accets/mf-avatar.svg';
 export default function About() {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="content"><h2 className="aboutme">About me</h2><p>Hello! My name is Pranav and I enjoy creating things
                 that live on the internet. My interest in web development started back in 2014.</p>
                 <p>I have some freelance experience My main focus these days is building accessible,

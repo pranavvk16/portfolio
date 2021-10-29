@@ -3,6 +3,7 @@ import './App.scss';
 import Header from "./Componrnts/Header"
 import Home from "./Componrnts/Home"
 import About from "./Componrnts/About"
+import Contact from "./Componrnts/Contact"
 // import Particles from 'react-tsparticles';
 function App() {
 
@@ -106,7 +107,8 @@ function App() {
         }}
       /></div> */}
       <Home />
-      <About/>
+      <About />
+      <Contact />
     </div>
   );
 }
