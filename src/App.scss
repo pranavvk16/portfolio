@@ -98,6 +98,8 @@ a {
   }
   .devname {
     color: #d3d8e7;
+    transition-duration: 1.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-size: clamp(16px, 8vw, 40px);
   }
   .slogan {
@@ -154,6 +156,7 @@ a {
     font-family: "Poppins", sans-serif;
     word-spacing: 3px;
     .aboutme {
+      z-index: -2;
       display: flex;
       -moz-box-align: center;
       align-items: center;
@@ -198,6 +201,8 @@ a {
   }
 }
 .contact {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.2s;
   color: #d3d8e7;
   display: flex;
   -moz-box-pack: center;
@@ -210,28 +215,30 @@ a {
   margin: auto;
   padding-block: 21% 20%;
   font-family: "Poppins", sans-serif;
-  .username,
-  .usermail {
-    font-size: 16px;
-    input {
-      color: whitesmoke;
-      background-color: var(--lightnavy);
-      width: 460px;
-      height: 40px;
-      margin-block: 7px;
-      font-size: large;
-      font-family: "Poppins", sans-serif;
-      border: none;
-      border-left: 6px solid #5c5d5e;
-      padding-left: 10px;
-    }
+  font-size: 16px;
+  input {
+    color: whitesmoke;
+    background-color: var(--lightnavy);
+    width: 600px;
+    height: 40px;
+    margin-block: 7px;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-left: 6px solid #5c5d5e;
+    padding-left: 10px;
+  }
+
+  textarea:focus,
+  input:focus {
+    border-left: 6px solid var(--neongreen);
   }
   .usermsg {
     margin-block: 5px;
   }
   textarea {
     background-color: var(--lightnavy);
-    width: 460px;
+    width: 600px;
     font-size: large;
     height: 40px;
     margin-block: 7px;
@@ -275,5 +282,12 @@ a {
     width: 90%;
     flex-direction: column-reverse;
     margin: auto;
+  }
+  .contact {
+    width: 70%;
+    textarea,
+    input {
+      width: 200%;
+    }
   }
 }
